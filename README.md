@@ -1,3 +1,35 @@
+# Zadanie 1.1. (0–5)
+
+Napisz algorytm (w postaci listy kroków, w pseudokodzie lub w wybranym języku programowania), który dla danego ciągu liczb zapisanych przez dzieci znajdzie pierwszą liczbę zapisaną przez Jasia.
+
+Zakładamy, że każde z dzieci zapisało co najmniej jedną liczbę.
+
+Przy ocenie będzie brana pod uwagę złożoność czasowa Twojego algorytmu. Maksymalną liczbę punktów uzyskasz za algorytm o złożoności lepszej niż liniowa.
+
+> **Uwaga:** W zapisie algorytmu możesz wykorzystać tylko operacje arytmetyczne (dodawanie, odejmowanie, mnożenie, dzielenie, dzielenie całkowite, reszta z dzielenia), instrukcje porównania, instrukcje sterujące i przypisania do zmiennych lub samodzielnie napisane funkcje, wykorzystujące wyżej wymienione operacje.
+
+## Specyfikacja
+
+### Dane
+
+- `n` – liczba całkowita większa od 1
+- `A[1..n]` – tablica zawierająca ciąg `n` liczb zapisanych przez dzieci  
+  (najpierw wszystkie liczby nieparzyste, a potem wszystkie liczby parzyste)
+
+### Wynik
+
+- `w` – pierwsza od lewej parzysta liczba w tablicy `A`
+
+## Przykład
+
+### Dane
+
+```text
+n = 10
+A[1..n] = {5, 99, 3, 7, 111, 13, 4, 24, 4, 8}
+
+---
+
 # Zadanie 4. Liczby
 
 W pliku `liczby.txt` zapisano 500 liczb całkowitych dodatnich po jednej w każdym wierszu.  
