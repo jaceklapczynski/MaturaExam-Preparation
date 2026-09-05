@@ -27,17 +27,25 @@ Przy ocenie będzie brana pod uwagę złożoność czasowa Twojego algorytmu. Ma
 ```text
 n = 10
 A[1..n] = {5, 99, 3, 7, 111, 13, 4, 24, 4, 8}
+```
+
+### Wynik
+
+```text
+w = 4
+```
 
 ---
 
 # Zadanie 4. Liczby
 
-W pliku `liczby.txt` zapisano 500 liczb całkowitych dodatnich po jednej w każdym wierszu.  
+W pliku `liczby.txt` zapisano 500 liczb całkowitych dodatnich po jednej w każdym wierszu.
+
 Każda liczba jest z zakresu od 1 do 100 000.
 
 Napisz program(-y) dający(-e) odpowiedzi do poniższych zadań. Zapisz uzyskane odpowiedzi w pliku `wyniki4.txt`, poprzedzając każdą z nich numerem odpowiedniego zadania.
 
-> Uwaga: Plik `przyklad.txt` zawiera przykładowe dane spełniające warunki zadania.  
+> **Uwaga:** Plik `przyklad.txt` zawiera przykładowe dane spełniające warunki zadania.  
 > Odpowiedzi dla danych z tego pliku są podane pod treściami zadań.
 
 ---
@@ -103,7 +111,7 @@ Jako odpowiedź podaj:
 
 W pliku z danymi jest tylko jeden taki ciąg o największej długości.
 
-> Uwaga: Możesz skorzystać z zależności:
+> **Uwaga:** Możesz skorzystać z zależności:
 >
 > `NWD(a, b, c) = NWD(NWD(a, b), c)`
 
