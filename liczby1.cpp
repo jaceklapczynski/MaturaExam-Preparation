@@ -48,7 +48,7 @@ int main(){
     }
 
     cout << wynik;
-    out.open("£apczyñski Jacek 4D1 - liczby wynik 1.txt");
+    out.open("liczbyWynik1.txt");
 
     if(out.good()){
         out << wynik;

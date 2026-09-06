@@ -47,7 +47,7 @@ int main(){
         cout << "Blad otwarcia pliku" << endl;
     }
 
-    out.open("£apczyñski Jacek 4D1 - liczby wynik2.txt");
+    out.open("liczbyWynik2.txt");
     for(int i = 0; i < 500; i++){
         if(liczby[i] == sumaSilniCyfr(liczby[i])){
             out << liczby[i] << endl;
